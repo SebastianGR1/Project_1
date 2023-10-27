@@ -4,7 +4,7 @@
 
 
 body{
-    background: linear-gradient(93deg,#33B2D3 20.76%, #2D44D2 78.80%);
+    background: linear-gradient(93deg,#4d116b 20.76%, #8f23a5 78.80%);
 }
 
 nav{
@@ -35,9 +35,13 @@ nav span{
     font-size: 20px;
 }
 
+nav img{
+    width: 14%;
+    align-items: center;
+}
 
 .btn{
-    background-color: rgb(231, 141, 22);
+    background-color: rgb(77, 17, 89);
     color: white;
     font-size: 20px;
     border: none;
@@ -45,22 +49,49 @@ nav span{
     border-radius: 10px;
 }
 
-#texto-principal{
-    width: 50%;
-}
-
-
-main{
-    display: flex;
-    justify-content: space-around;
+.btn a{
+    text-decoration: none;
     color: white;
-    align-items: center;
-    margin-top: 40px;
+    font-size: 20px;
 }
 
-main span{
-    font-size: 50px;
-    display: block;
+.btn{
+    background-color: rgb(77, 17, 89);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.btn2{
+    background-color: rgb(91, 30, 183);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.btn3{
+    background-color: rgb(102, 0, 255);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 #contacto form{
@@ -76,4 +107,8 @@ main span{
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+#Contacto{
+    background:linear-gradient(98deg,#70c90b,#4d116b);
 }
