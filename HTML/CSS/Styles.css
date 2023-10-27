@@ -1,10 +1,9 @@
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arvo', serif;
 }
 
-
 body{
-    background: linear-gradient(93deg,#4d116b 20.76%, #8f23a5 78.80%);
+    background: linear-gradient(93deg,#e41212 20.76%, #ffd900 78.80%);
 }
 
 nav{
@@ -40,10 +39,44 @@ nav img{
     align-items: center;
 }
 
+#Texto p{
+    font-style: italic;
+
+    font-size: 25px;
+    display: flex;
+}
+
+#Titulo{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn4{
+    background-color: rgb(46, 89, 17);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+main img{
+    width: 30%;
+    height: 150px;
+}
+
 .btn{
     background-color: rgb(77, 17, 89);
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -55,23 +88,9 @@ nav img{
     font-size: 20px;
 }
 
-.btn{
-    background-color: rgb(77, 17, 89);
-    color: white;
-    font-size: 20px;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-}
-
-.btn a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
 
 .btn2{
-    background-color: rgb(91, 30, 183);
+    background-color: rgb(255, 174, 0);
     color: white;
     font-size: 20px;
     border: none;
@@ -86,7 +105,7 @@ nav img{
 }
 
 .btn3{
-    background-color: rgb(102, 0, 255);
+    background-color: rgb(229, 255, 0);
     color: white;
     font-size: 20px;
     border: none;
@@ -102,13 +121,11 @@ nav img{
     text-align: center;
 }
 
-#contacto input, select, textarea{
-    border: none;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+#contacto input{
+    border-radius: 70px;
+    background-color: #00f2ff;
+    color: #e41212;
 }
 
-#Contacto{
-    background:linear-gradient(98deg,#70c90b,#4d116b);
-}
+
+
