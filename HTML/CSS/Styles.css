@@ -13,6 +13,11 @@ nav{
     border-radius: 80px;
 }
 
+.parrafo{
+    width: 35%;
+
+}
+
 nav ul{
     display: flex;
     list-style: none;
@@ -160,4 +165,8 @@ main img{
 
 #tabla1 span{
     color:white
+}
+
+.texto{
+    margin: 0 40px;
 }
