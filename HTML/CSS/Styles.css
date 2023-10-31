@@ -7,6 +7,7 @@ body{
 }
 
 nav{
+    background:  linear-gradient(93deg,#00f2ff,#e41212);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,19 +38,6 @@ nav span{
 nav img{
     width: 14%;
     align-items: center;
-}
-
-#Texto p{
-    font-style: italic;
-
-    font-size: 25px;
-    display: flex;
-}
-
-#Titulo{
-    font-size: 55px;
-    color: white;
-    margin-bottom: 0px;
 }
 
 main{
@@ -113,6 +101,16 @@ main img{
     border-radius: 10px;
 }
 
+.btn4{
+    background-color: rgb(229, 255, 0);
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
 #contacto form{
     display: flex;
     flex-direction: column;
@@ -123,9 +121,80 @@ main img{
 
 #contacto input{
     border-radius: 70px;
-    background-color: #00f2ff;
-    color: #e41212;
+    background-color: #ffffff;
+    color: #000;
+}
+
+#Texto p{
+    font-size: 25px;
+    display: flex;
+}
+
+#Titulo{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#services h1{
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 
 
+.btn{
+    background-color: rgb(77, 17, 89);
+    color: white;
+    font-size: 30px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.btn2{
+    background-color: rgb(255, 174, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.btn3{
+    background-color: rgb(229, 255, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.cuadrado img{
+    display: flex;
+    width: 150px;
+    height: 160px;
+    background: none;
+    border: 5px solid #464242;
+    border-radius: 40px;
+
+}
+
+#tabla1{
+    border-color: #e41212;
+}
