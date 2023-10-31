@@ -3,14 +3,15 @@
 }
 
 body{
-    background: linear-gradient(93deg,#2b2929 20.76%, #ffd900 78.80%);
+    background: linear-gradient(93deg,#2f2d2d 20.76%, #181819 78.80%);
 }
 
 nav{
-    background:  linear-gradient(93deg,#00f2ff,#e41212);
+    background-color: rgb(97, 91, 91);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 80px;
 }
 
 nav ul{
@@ -48,7 +49,7 @@ main{
 }
 
 .btn4{
-    background-color: rgb(46, 89, 17);
+    background-color: rgb(212, 0, 255);
     color: white;
     font-size: 20px;
     border: none;
@@ -78,7 +79,7 @@ main img{
 
 
 .btn2{
-    background-color: rgb(255, 174, 0);
+    background-color: rgb(189, 48, 255);
     color: white;
     font-size: 20px;
     border: none;
@@ -93,7 +94,7 @@ main img{
 }
 
 .btn3{
-    background-color: rgb(229, 255, 0);
+    background-color: rgb(255, 0, 238);
     color: white;
     font-size: 20px;
     border: none;
@@ -102,8 +103,8 @@ main img{
 }
 
 .btn4{
-    background-color: rgb(229, 255, 0);
-    color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 238);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     border: none;
     padding: 10px 20px;
@@ -126,14 +127,16 @@ main img{
 }
 
 #Texto p{
-    font-size: 25px;
+    font-size: 120%;
     display: flex;
+    color: white;
 }
 
 #Titulo{
     font-size: 55px;
     color: white;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 #services h1{
@@ -177,7 +180,7 @@ main img{
 }
 
 .btn3{
-    background-color: rgb(229, 255, 0);
+    background-color: rgb(255, 0, 200);
     color: white;
     font-size: 20px;
     border: none;
