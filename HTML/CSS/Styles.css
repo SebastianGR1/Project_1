@@ -142,12 +142,16 @@ main img{
 
 .cuadrado img{
     display: flex;
-    width: 150px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     background: none;
     border: 5px solid #464242;
     border-radius: 40px;
+    margin-left: 15px;
+}
 
+.cuadrado p{
+    color: white;
 }
 
 #tabla1{
@@ -168,5 +172,6 @@ main img{
 }
 
 .texto{
-    margin: 0 40px;
+    margin: 0 80px;
+    font-size: 20px;
 }
